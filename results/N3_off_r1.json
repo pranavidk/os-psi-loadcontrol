@@ -1,0 +1,43 @@
+{
+  "run": "N3_off_r1",
+  "n": 3,
+  "mode": "off",
+  "rep": 1,
+  "psi_full_avg10_mean": 0.0,
+  "psi_some_avg10_mean": 0.0,
+  "majflt_per_s": 0.1,
+  "swap_pages_per_s": 0.0,
+  "throughput_m_per_s": 231.148,
+  "makespan_s": 61.0,
+  "finished": 3,
+  "timed_out": false,
+  "suspends": 0,
+  "resumes": 0,
+  "controller_cpu_pct": 0.16,
+  "per_process": {
+    "P3": {
+      "finished_at_s": 61.0,
+      "pid": 5873.0,
+      "done": 1.0,
+      "touches": 4700000000.0,
+      "elapsed": 60.36,
+      "throughput": 77.867
+    },
+    "P2": {
+      "finished_at_s": 60.1,
+      "pid": 5874.0,
+      "done": 1.0,
+      "touches": 4700000000.0,
+      "elapsed": 59.4,
+      "throughput": 79.125
+    },
+    "P1": {
+      "finished_at_s": 60.1,
+      "pid": 5875.0,
+      "done": 1.0,
+      "touches": 4700000000.0,
+      "elapsed": 59.72,
+      "throughput": 78.698
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "high": 10.0,
+  "low": 2.0,
+  "high_samples": 3,
+  "low_seconds": 10,
+  "window_s": 5,
+  "cooldown": 5,
+  "reserve_mb": 300,
+  "capacity_mb": null,
+  "resume_fraction": 0.9,
+  "timeout_s": 300,
+  "workload": {
+    "binary": "../workload/wsload",
+    "total_mb": 500,
+    "ws_mb": 400,
+    "million_touches": 4700
+  }
+}

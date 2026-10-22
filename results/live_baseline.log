@@ -1,0 +1,187 @@
+=== run N5_off_r1: mode=off workloads=5 x wsload 500MB/400MB/4700M touches
+    MemTotal=1955 MB capacity C=1655 MB HIGH=10.0% LOW=2.0% delta=5 s timeout=300 s
+    started pid 5394 priority P5
+    started pid 5395 priority P4
+    started pid 5396 priority P3
+    started pid 5397 priority P2
+    started pid 5398 priority P1
+t=    1s some=  0.0% full=  0.0% avail=   91MB majflt/s=  2310 swap/s=233038 | P5:RUN/0MB P4:RUN/0MB P3:RUN/0MB P2:RUN/0MB P1:RUN/0MB
+t=    2s some= 12.5% full= 10.0% avail=   72MB majflt/s= 20735 swap/s= 38547 | P5:RUN/0MB P4:RUN/0MB P3:RUN/0MB P2:RUN/0MB P1:RUN/0MB
+t=    3s some= 12.5% full= 10.0% avail=   57MB majflt/s= 22712 swap/s= 40635 | P5:RUN/0MB P4:RUN/0MB P3:RUN/0MB P2:RUN/0MB P1:RUN/0MB
+t=    4s some= 16.2% full= 12.9% avail=   49MB majflt/s= 22998 swap/s= 43748 | P5:RUN/0MB P4:RUN/0MB P3:RUN/0MB P2:RUN/0MB P1:RUN/0MB
+t=    5s some= 16.2% full= 12.9% avail=   50MB majflt/s= 17661 swap/s= 35372 | P5:RUN/307MB P4:RUN/230MB P3:RUN/213MB P2:RUN/216MB P1:RUN/354MB
+t=    6s some= 22.3% full= 17.2% avail=   48MB majflt/s= 22088 swap/s= 44333 | P5:RUN/307MB P4:RUN/230MB P3:RUN/213MB P2:RUN/216MB P1:RUN/354MB
+t=    7s some= 22.3% full= 17.2% avail=   50MB majflt/s= 22069 swap/s= 44127 | P5:RUN/307MB P4:RUN/230MB P3:RUN/213MB P2:RUN/216MB P1:RUN/354MB
+t=    8s some= 29.0% full= 21.4% avail=   41MB majflt/s= 22495 swap/s= 43748 | P5:RUN/307MB P4:RUN/230MB P3:RUN/213MB P2:RUN/216MB P1:RUN/354MB
+t=    9s some= 29.0% full= 21.4% avail=   50MB majflt/s= 22371 swap/s= 46139 | P5:RUN/307MB P4:RUN/230MB P3:RUN/213MB P2:RUN/216MB P1:RUN/354MB
+t=   10s some= 28.8% full= 20.8% avail=   45MB majflt/s= 21887 swap/s= 41965 | P5:RUN/174MB P4:RUN/122MB P3:RUN/119MB P2:RUN/119MB P1:RUN/234MB
+t=   11s some= 28.8% full= 20.8% avail=   49MB majflt/s= 18357 swap/s= 56896 | P5:RUN/174MB P4:RUN/122MB P3:RUN/119MB P2:RUN/119MB P1:RUN/234MB
+t=   12s some= 31.9% full= 22.8% avail=   48MB majflt/s= 21577 swap/s= 24674 | P5:RUN/174MB P4:RUN/122MB P3:RUN/119MB P2:RUN/119MB P1:RUN/234MB
+t=   13s some= 31.9% full= 22.8% avail=   48MB majflt/s= 21763 swap/s= 42264 | P5:RUN/174MB P4:RUN/122MB P3:RUN/119MB P2:RUN/119MB P1:RUN/234MB
+t=   14s some= 36.1% full= 25.2% avail=   50MB majflt/s= 21950 swap/s= 44975 | P5:RUN/174MB P4:RUN/122MB P3:RUN/119MB P2:RUN/119MB P1:RUN/234MB
+t=   15s some= 36.1% full= 25.2% avail=   52MB majflt/s= 22108 swap/s= 45706 | P5:RUN/193MB P4:RUN/159MB P3:RUN/152MB P2:RUN/161MB P1:RUN/269MB
+t=   16s some= 34.4% full= 23.9% avail=   51MB majflt/s= 20601 swap/s= 39811 | P5:RUN/193MB P4:RUN/159MB P3:RUN/152MB P2:RUN/161MB P1:RUN/269MB
+t=   17s some= 34.4% full= 23.9% avail=   52MB majflt/s= 20330 swap/s= 39978 | P5:RUN/193MB P4:RUN/159MB P3:RUN/152MB P2:RUN/161MB P1:RUN/269MB
+t=   18s some= 32.5% full= 22.4% avail=   53MB majflt/s= 19594 swap/s= 39583 | P5:RUN/193MB P4:RUN/159MB P3:RUN/152MB P2:RUN/161MB P1:RUN/269MB
+t=   19s some= 32.5% full= 22.4% avail=   60MB majflt/s= 19049 swap/s= 40306 | P5:RUN/193MB P4:RUN/159MB P3:RUN/152MB P2:RUN/161MB P1:RUN/269MB
+t=   20s some= 33.5% full= 22.9% avail=   51MB majflt/s= 20536 swap/s= 38778 | P5:RUN/179MB P4:RUN/105MB P3:RUN/97MB P2:RUN/108MB P1:RUN/400MB
+t=   21s some= 33.5% full= 22.9% avail=   54MB majflt/s= 18999 swap/s= 38030 | P5:RUN/179MB P4:RUN/105MB P3:RUN/97MB P2:RUN/108MB P1:RUN/400MB
+t=   22s some= 35.1% full= 22.8% avail=   57MB majflt/s= 19502 swap/s= 40083 | P5:RUN/179MB P4:RUN/105MB P3:RUN/97MB P2:RUN/108MB P1:RUN/400MB
+t=   23s some= 35.1% full= 22.8% avail=   43MB majflt/s= 20526 swap/s= 39324 | P5:RUN/179MB P4:RUN/105MB P3:RUN/97MB P2:RUN/108MB P1:RUN/400MB
+t=   24s some= 34.9% full= 22.1% avail=   42MB majflt/s= 20050 swap/s= 38889 | P5:RUN/179MB P4:RUN/105MB P3:RUN/97MB P2:RUN/108MB P1:RUN/400MB
+t=   25s some= 34.9% full= 22.1% avail=   44MB majflt/s= 18446 swap/s= 37749 | P5:RUN/223MB P4:RUN/73MB P3:RUN/66MB P2:RUN/77MB P1:RUN/400MB
+t=   26s some= 34.5% full= 21.1% avail=   39MB majflt/s= 17325 swap/s= 35239 | P5:RUN/223MB P4:RUN/73MB P3:RUN/66MB P2:RUN/77MB P1:RUN/400MB
+t=   27s some= 34.5% full= 21.1% avail=   32MB majflt/s= 13486 swap/s= 25586 | P5:RUN/223MB P4:RUN/73MB P3:RUN/66MB P2:RUN/77MB P1:RUN/400MB
+t=   28s some= 34.6% full= 19.7% avail=   31MB majflt/s= 14269 swap/s= 31515 | P5:RUN/223MB P4:RUN/73MB P3:RUN/66MB P2:RUN/77MB P1:RUN/400MB
+t=   29s some= 34.6% full= 19.7% avail=   38MB majflt/s=  6079 swap/s= 13382 | P5:RUN/223MB P4:RUN/73MB P3:RUN/66MB P2:RUN/77MB P1:RUN/400MB
+t=   30s some= 36.0% full= 17.2% avail=   41MB majflt/s= 11519 swap/s= 26059 | P5:RUN/400MB P4:RUN/67MB P3:RUN/64MB P2:RUN/68MB P1:RUN/400MB
+t=   31s some= 36.0% full= 17.2% avail=   39MB majflt/s= 13276 swap/s= 30163 | P5:RUN/400MB P4:RUN/67MB P3:RUN/64MB P2:RUN/68MB P1:RUN/400MB
+t=   32s some= 35.8% full= 15.9% avail=   33MB majflt/s= 13073 swap/s= 27890 | P5:RUN/400MB P4:RUN/67MB P3:RUN/64MB P2:RUN/68MB P1:RUN/400MB
+t=   33s some= 35.8% full= 15.9% avail=   39MB majflt/s= 12758 swap/s= 29845 | P5:RUN/400MB P4:RUN/67MB P3:RUN/64MB P2:RUN/68MB P1:RUN/400MB
+t=   34s some= 35.3% full= 14.8% avail=   29MB majflt/s= 13453 swap/s= 31458 | P5:RUN/400MB P4:RUN/67MB P3:RUN/64MB P2:RUN/68MB P1:RUN/400MB
+t=   35s some= 35.3% full= 14.8% avail=   38MB majflt/s= 13030 swap/s= 33027 | P5:RUN/400MB P4:RUN/68MB P3:RUN/66MB P2:RUN/68MB P1:RUN/400MB
+t=   36s some= 34.9% full= 14.1% avail=   39MB majflt/s= 12902 swap/s= 33736 | P5:RUN/400MB P4:RUN/68MB P3:RUN/66MB P2:RUN/68MB P1:RUN/400MB
+t=   37s some= 34.9% full= 14.1% avail=   31MB majflt/s= 12885 swap/s= 32090 | P5:RUN/400MB P4:RUN/68MB P3:RUN/66MB P2:RUN/68MB P1:RUN/400MB
+t=   38s some= 34.5% full= 13.6% avail=   37MB majflt/s= 12478 swap/s= 35630 | P5:RUN/400MB P4:RUN/68MB P3:RUN/66MB P2:RUN/68MB P1:RUN/400MB
+t=   39s some= 34.5% full= 13.6% avail=   37MB majflt/s= 12935 swap/s= 36666 | P5:RUN/400MB P4:RUN/68MB P3:RUN/66MB P2:RUN/68MB P1:RUN/400MB
+t=   40s some= 34.4% full= 13.1% avail=   38MB majflt/s= 12670 swap/s= 35932 | P5:RUN/400MB P4:RUN/64MB P3:RUN/63MB P2:RUN/70MB P1:RUN/400MB
+t=   41s some= 34.4% full= 13.1% avail=   59MB majflt/s= 11499 swap/s= 38777 | P5:RUN/400MB P4:RUN/64MB P3:RUN/63MB P2:RUN/70MB P1:RUN/400MB
+t=   42s some= 34.5% full= 12.7% avail=   51MB majflt/s= 13121 swap/s= 36168 | P5:RUN/400MB P4:RUN/64MB P3:RUN/63MB P2:RUN/70MB P1:RUN/400MB
+t=   43s some= 34.5% full= 12.7% avail=   51MB majflt/s= 12916 swap/s= 37880 | P5:RUN/400MB P4:RUN/64MB P3:RUN/63MB P2:RUN/70MB P1:RUN/400MB
+t=   44s some= 33.9% full= 12.2% avail=   44MB majflt/s= 13004 swap/s= 35794 | P5:RUN/400MB P4:RUN/64MB P3:RUN/63MB P2:RUN/70MB P1:RUN/400MB
+t=   45s some= 33.9% full= 12.2% avail=   47MB majflt/s= 12555 swap/s= 40077 | P5:RUN/400MB P4:RUN/60MB P3:RUN/57MB P2:RUN/61MB P1:RUN/400MB
+t=   46s some= 34.5% full= 12.0% avail=   43MB majflt/s= 12804 swap/s= 38190 | P5:RUN/400MB P4:RUN/60MB P3:RUN/57MB P2:RUN/61MB P1:RUN/400MB
+t=   47s some= 34.5% full= 12.0% avail=   47MB majflt/s= 12693 swap/s= 41371 | P5:RUN/400MB P4:RUN/60MB P3:RUN/57MB P2:RUN/61MB P1:RUN/400MB
+t=   48s some= 34.2% full= 11.8% avail=   43MB majflt/s= 13103 swap/s= 37192 | P5:RUN/400MB P4:RUN/60MB P3:RUN/57MB P2:RUN/61MB P1:RUN/400MB
+t=   49s some= 34.2% full= 11.8% avail=   43MB majflt/s= 12381 swap/s= 40883 | P5:RUN/400MB P4:RUN/60MB P3:RUN/57MB P2:RUN/61MB P1:RUN/400MB
+t=   50s some= 33.6% full= 11.5% avail=   35MB majflt/s= 12894 swap/s= 36612 | P5:RUN/400MB P4:RUN/55MB P3:RUN/47MB P2:RUN/56MB P1:RUN/400MB
+t=   51s some= 33.6% full= 11.5% avail=   39MB majflt/s= 12414 swap/s= 42122 | P5:RUN/400MB P4:RUN/55MB P3:RUN/47MB P2:RUN/56MB P1:RUN/400MB
+t=   52s some= 35.5% full= 11.6% avail=   39MB majflt/s= 13093 swap/s= 41343 | P5:RUN/400MB P4:RUN/55MB P3:RUN/47MB P2:RUN/56MB P1:RUN/400MB
+t=   53s some= 35.5% full= 11.6% avail=   31MB majflt/s= 13162 swap/s= 40477 | P5:RUN/400MB P4:RUN/55MB P3:RUN/47MB P2:RUN/56MB P1:RUN/400MB
+t=   54s some= 33.8% full= 11.1% avail=   37MB majflt/s= 12730 swap/s= 40774 | P5:RUN/400MB P4:RUN/55MB P3:RUN/47MB P2:RUN/56MB P1:RUN/400MB
+t=   55s some= 33.8% full= 11.1% avail=   43MB majflt/s= 12337 swap/s= 45141 | P5:RUN/400MB P4:RUN/51MB P3:RUN/49MB P2:RUN/51MB P1:RUN/400MB
+t=   56s some= 33.8% full= 11.1% avail=   31MB majflt/s= 13010 swap/s= 37859 | P5:RUN/400MB P4:RUN/51MB P3:RUN/49MB P2:RUN/51MB P1:RUN/400MB
+t=   57s some= 33.8% full= 11.1% avail=   31MB majflt/s= 12563 swap/s= 42464 | P5:RUN/400MB P4:RUN/51MB P3:RUN/49MB P2:RUN/51MB P1:RUN/400MB
+t=   58s some= 34.6% full= 11.1% avail=   35MB majflt/s= 12534 swap/s= 39753 | P5:RUN/400MB P4:RUN/51MB P3:RUN/49MB P2:RUN/51MB P1:RUN/400MB
+t=   59s some= 34.6% full= 11.1% avail=   37MB majflt/s= 12256 swap/s= 43376 | P5:RUN/400MB P4:RUN/51MB P3:RUN/49MB P2:RUN/51MB P1:RUN/400MB
+t=   60s some= 34.1% full= 11.1% avail=   35MB majflt/s= 12645 swap/s= 39435 | P5:RUN/400MB P4:RUN/54MB P3:RUN/46MB P2:RUN/47MB P1:RUN/400MB
+t=   61s some= 34.1% full= 11.1% avail=   29MB majflt/s= 12182 swap/s= 41941 | P5:RUN/400MB P4:RUN/54MB P3:RUN/46MB P2:RUN/47MB P1:RUN/400MB
+t=   62s some= 34.5% full= 10.9% avail=   34MB majflt/s= 12660 swap/s= 41810 | P5:RUN/400MB P4:RUN/54MB P3:RUN/46MB P2:RUN/47MB P1:RUN/400MB
+t=   63s some= 34.5% full= 10.9% avail=   28MB majflt/s= 12733 swap/s= 42739 | P5:RUN/400MB P4:RUN/54MB P3:RUN/46MB P2:RUN/47MB P1:RUN/400MB
+t=   64s some= 34.4% full= 10.7% avail=   31MB majflt/s= 12822 swap/s= 42051 | P5:RUN/400MB P4:RUN/54MB P3:RUN/46MB P2:RUN/47MB P1:RUN/400MB
+t=   65s some= 34.4% full= 10.7% avail=   35MB majflt/s= 12229 swap/s= 44383 | P5:RUN/400MB P4:RUN/54MB P3:RUN/53MB P2:RUN/58MB P1:RUN/400MB
+t=   66s some= 34.8% full= 11.1% avail=   32MB majflt/s= 16401 swap/s= 49369 | P5:RUN/400MB P4:RUN/54MB P3:RUN/53MB P2:RUN/58MB P1:RUN/400MB
+t=   67s some= 34.8% full= 11.1% avail=   33MB majflt/s= 12417 swap/s= 43349 | P5:RUN/400MB P4:RUN/54MB P3:RUN/53MB P2:RUN/58MB P1:RUN/400MB
+t=   68s some= 34.9% full= 11.3% avail=   23MB majflt/s= 13206 swap/s= 39272 | P5:RUN/400MB P4:RUN/54MB P3:RUN/53MB P2:RUN/58MB P1:RUN/400MB
+t=   69s some= 34.9% full= 11.3% avail=   34MB majflt/s= 12174 swap/s= 46449 | P5:RUN/400MB P4:RUN/54MB P3:RUN/53MB P2:RUN/58MB P1:RUN/400MB
+t=   70s some= 34.9% full= 11.1% avail=   27MB majflt/s= 12882 swap/s= 39130 | P5:RUN/400MB P4:RUN/58MB P3:RUN/56MB P2:RUN/57MB P1:RUN/400MB
+t=   71s some= 34.9% full= 11.1% avail=   33MB majflt/s= 11885 swap/s= 45221 | P5:RUN/400MB P4:RUN/58MB P3:RUN/56MB P2:RUN/57MB P1:RUN/400MB
+t=   72s some= 35.1% full= 10.9% avail=   24MB majflt/s= 12647 swap/s= 39029 | P5:RUN/400MB P4:RUN/58MB P3:RUN/56MB P2:RUN/57MB P1:RUN/400MB
+t=   73s some= 35.1% full= 10.9% avail=   25MB majflt/s= 12609 swap/s= 43425 | P5:RUN/400MB P4:RUN/58MB P3:RUN/56MB P2:RUN/57MB P1:RUN/400MB
+t=   74s some= 34.2% full= 10.3% avail=   29MB majflt/s= 12555 swap/s= 42135 | P5:RUN/400MB P4:RUN/58MB P3:RUN/56MB P2:RUN/57MB P1:RUN/400MB
+t=   75s some= 34.2% full= 10.3% avail=   29MB majflt/s= 11979 swap/s= 43222 | P5:RUN/400MB P4:RUN/57MB P3:RUN/56MB P2:RUN/56MB P1:RUN/400MB
+t=   76s some= 34.7% full= 10.3% avail=   18MB majflt/s= 12206 swap/s= 37658 | P5:RUN/400MB P4:RUN/57MB P3:RUN/56MB P2:RUN/56MB P1:RUN/400MB
+t=   77s some= 34.7% full= 10.3% avail=   19MB majflt/s= 13074 swap/s= 43396 | P5:RUN/400MB P4:RUN/57MB P3:RUN/56MB P2:RUN/56MB P1:RUN/400MB
+t=   78s some= 34.6% full= 10.2% avail=   34MB majflt/s= 12613 swap/s= 40449 | P5:RUN/400MB P4:RUN/57MB P3:RUN/56MB P2:RUN/56MB P1:RUN/400MB
+t=   79s some= 34.6% full= 10.2% avail=   24MB majflt/s= 13243 swap/s= 43533 | P5:RUN/400MB P4:RUN/57MB P3:RUN/56MB P2:RUN/56MB P1:RUN/400MB
+t=   80s some= 34.3% full= 10.2% avail=   27MB majflt/s= 12901 swap/s= 40983 | P5:RUN/400MB P4:RUN/57MB P3:RUN/57MB P2:RUN/56MB P1:RUN/400MB
+t=   81s some= 34.3% full= 10.2% avail=   35MB majflt/s= 11654 swap/s= 44098 | P5:RUN/400MB P4:RUN/57MB P3:RUN/57MB P2:RUN/56MB P1:RUN/400MB
+t=   82s some= 35.9% full= 10.2% avail=   36MB majflt/s= 12952 swap/s= 39242 | P5:RUN/400MB P4:RUN/57MB P3:RUN/57MB P2:RUN/56MB P1:RUN/400MB
+t=   83s some= 35.9% full= 10.2% avail=   22MB majflt/s= 13124 swap/s= 40572 | P5:RUN/400MB P4:RUN/57MB P3:RUN/57MB P2:RUN/56MB P1:RUN/400MB
+t=   84s some= 34.8% full=  9.9% avail=   21MB majflt/s= 12903 swap/s= 40886 | P5:RUN/400MB P4:RUN/57MB P3:RUN/57MB P2:RUN/56MB P1:RUN/400MB
+t=   85s some= 34.8% full=  9.9% avail=   22MB majflt/s= 12816 swap/s= 42567 | P5:RUN/400MB P4:RUN/56MB P3:RUN/57MB P2:RUN/64MB P1:RUN/389MB
+t=   86s some= 35.4% full= 10.3% avail=   18MB majflt/s= 14161 swap/s= 49004 | P5:RUN/400MB P4:RUN/56MB P3:RUN/57MB P2:RUN/64MB P1:RUN/389MB
+t=   87s some= 35.4% full= 10.3% avail=   31MB majflt/s= 13042 swap/s= 44446 | P5:RUN/400MB P4:RUN/56MB P3:RUN/57MB P2:RUN/64MB P1:RUN/389MB
+t=   88s some= 35.7% full= 10.2% avail=   22MB majflt/s= 12438 swap/s= 38168 | P5:RUN/400MB P4:RUN/56MB P3:RUN/57MB P2:RUN/64MB P1:RUN/389MB
+t=   89s some= 35.7% full= 10.2% avail=   26MB majflt/s= 12087 swap/s= 41817 | P5:RUN/400MB P4:RUN/56MB P3:RUN/57MB P2:RUN/64MB P1:RUN/389MB
+t=   90s some= 34.8% full= 10.2% avail=   22MB majflt/s= 11934 swap/s= 40643 | P5:RUN/400MB P4:RUN/50MB P3:RUN/48MB P2:RUN/53MB P1:RUN/400MB
+t=   91s some= 34.8% full= 10.2% avail=   27MB majflt/s= 12257 swap/s= 42662 | P5:RUN/400MB P4:RUN/50MB P3:RUN/48MB P2:RUN/53MB P1:RUN/400MB
+t=   92s some= 35.0% full= 10.2% avail=   20MB majflt/s= 12026 swap/s= 36347 | P5:RUN/400MB P4:RUN/50MB P3:RUN/48MB P2:RUN/53MB P1:RUN/400MB
+t=   93s some= 35.0% full= 10.2% avail=   29MB majflt/s= 11556 swap/s= 39030 | P5:RUN/400MB P4:RUN/50MB P3:RUN/48MB P2:RUN/53MB P1:RUN/400MB
+t=   94s some= 34.8% full= 10.0% avail=   20MB majflt/s= 12652 swap/s= 39990 | P5:RUN/400MB P4:RUN/50MB P3:RUN/48MB P2:RUN/53MB P1:RUN/400MB
+t=   95s some= 34.8% full= 10.0% avail=   26MB majflt/s= 12147 swap/s= 42378 | P5:RUN/400MB P4:RUN/55MB P3:RUN/54MB P2:RUN/58MB P1:RUN/400MB
+t=   96s some= 34.5% full= 10.1% avail=   25MB majflt/s= 12626 swap/s= 41821 | P5:RUN/400MB P4:RUN/55MB P3:RUN/54MB P2:RUN/58MB P1:RUN/400MB
+t=   97s some= 34.5% full= 10.1% avail=   23MB majflt/s= 12293 swap/s= 42534 | P5:RUN/400MB P4:RUN/55MB P3:RUN/54MB P2:RUN/58MB P1:RUN/400MB
+t=   98s some= 35.1% full= 10.1% avail=   23MB majflt/s= 12574 swap/s= 41588 | P5:RUN/400MB P4:RUN/55MB P3:RUN/54MB P2:RUN/58MB P1:RUN/400MB
+t=   99s some= 35.1% full= 10.1% avail=  287MB majflt/s= 19144 swap/s= 36858 | P5:RUN/400MB P4:RUN/55MB P3:RUN/54MB P2:RUN/58MB P1:DONE/400MB
+t=  100s some= 34.4% full= 10.5% avail=  145MB majflt/s= 18518 swap/s= 37002 | P5:RUN/400MB P4:RUN/318MB P3:RUN/315MB P2:RUN/338MB P1:DONE/400MB
+t=  101s some= 34.4% full= 10.5% avail=  121MB majflt/s=  5237 swap/s=  9049 | P5:RUN/400MB P4:RUN/318MB P3:RUN/315MB P2:RUN/338MB P1:DONE/400MB
+t=  102s some= 30.1% full=  8.9% avail=  121MB majflt/s=     0 swap/s=     0 | P5:RUN/400MB P4:RUN/318MB P3:RUN/315MB P2:RUN/338MB P1:DONE/400MB
+t=  103s some= 30.1% full=  8.9% avail=  121MB majflt/s=     0 swap/s=     0 | P5:RUN/400MB P4:RUN/318MB P3:RUN/315MB P2:RUN/338MB P1:DONE/400MB
+t=  104s some= 24.7% full=  7.3% avail=  543MB majflt/s=     5 swap/s=    15 | P5:DONE/400MB P4:RUN/318MB P3:RUN/315MB P2:RUN/338MB P1:DONE/400MB
+t=  105s some= 24.7% full=  7.3% avail=  543MB majflt/s=     2 swap/s=     6 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  106s some= 20.2% full=  6.0% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  107s some= 20.2% full=  6.0% avail=  543MB majflt/s=    47 swap/s=    53 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  108s some= 16.6% full=  4.9% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  109s some= 16.6% full=  4.9% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  110s some= 13.6% full=  4.0% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  111s some= 13.6% full=  4.0% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  112s some= 11.1% full=  3.3% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  113s some= 11.1% full=  3.3% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  114s some=  9.1% full=  2.7% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  115s some=  9.1% full=  2.7% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  116s some=  7.4% full=  2.2% avail=  547MB majflt/s=   120 swap/s=   144 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  117s some=  7.4% full=  2.2% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  118s some=  6.1% full=  1.8% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  119s some=  6.1% full=  1.8% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  120s some=  5.0% full=  1.5% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  121s some=  5.0% full=  1.5% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  122s some=  4.1% full=  1.2% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  123s some=  4.1% full=  1.2% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  124s some=  3.3% full=  1.0% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  125s some=  3.3% full=  1.0% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  126s some=  2.7% full=  0.8% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  127s some=  2.7% full=  0.8% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  128s some=  2.2% full=  0.7% avail=  547MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  129s some=  2.2% full=  0.7% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  130s some=  1.8% full=  0.5% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  131s some=  1.8% full=  0.5% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  132s some=  1.5% full=  0.4% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  133s some=  1.5% full=  0.4% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  134s some=  1.2% full=  0.4% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  135s some=  1.2% full=  0.4% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  136s some=  1.0% full=  0.3% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  137s some=  1.0% full=  0.3% avail=  543MB majflt/s=     2 swap/s=     2 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  138s some=  0.8% full=  0.2% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  139s some=  0.8% full=  0.2% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  140s some=  0.7% full=  0.2% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  141s some=  0.7% full=  0.2% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  142s some=  0.6% full=  0.2% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  143s some=  0.6% full=  0.2% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  144s some=  0.5% full=  0.1% avail=  543MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  145s some=  0.5% full=  0.1% avail=  541MB majflt/s=     6 swap/s=     1 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  146s some=  0.4% full=  0.1% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  147s some=  0.4% full=  0.1% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  148s some=  0.3% full=  0.1% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  149s some=  0.3% full=  0.1% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  150s some=  0.2% full=  0.1% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  151s some=  0.2% full=  0.1% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  152s some=  0.2% full=  0.1% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  153s some=  0.2% full=  0.1% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  154s some=  0.2% full=  0.0% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  155s some=  0.2% full=  0.0% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  156s some=  0.1% full=  0.0% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  157s some=  0.1% full=  0.0% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  158s some=  0.1% full=  0.0% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  159s some=  0.1% full=  0.0% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  160s some=  0.1% full=  0.0% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  161s some=  0.1% full=  0.0% avail=  541MB majflt/s=     0 swap/s=     0 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:RUN/400MB P1:DONE/400MB
+t=  162s some=  0.1% full=  0.0% avail=  945MB majflt/s=     4 swap/s=    10 | P5:DONE/400MB P4:RUN/400MB P3:RUN/400MB P2:DONE/400MB P1:DONE/400MB
+t=  163s some=  0.1% full=  0.0% avail= 1750MB majflt/s=    23 swap/s=    27 | P5:DONE/400MB P4:DONE/400MB P3:DONE/400MB P2:DONE/400MB P1:DONE/400MB
+=== summary N5_off_r1
+    run                    N5_off_r1
+    n                      5
+    mode                   off
+    rep                    1
+    psi_full_avg10_mean    9.17
+    psi_some_avg10_mean    22.48
+    majflt_per_s           9020.5
+    swap_pages_per_s       25479.2
+    throughput_m_per_s     144.172
+    makespan_s             163.0
+    finished               5
+    timed_out              False
+    suspends               0
+    resumes                0
+    controller_cpu_pct     0.49
+    log: /home/ubuntu/os-psi-loadcontrol/results/N5_off_r1.csv
